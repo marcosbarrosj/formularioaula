@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+body.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  .dark-mode .navbar {
+    background-color: #343a40;
+  }
+  .dark-mode .btn {
+    background-color: #495057;
+    color: #f8f9fa;
+  }
+
+body{
+    background-image: url(Background.png);
+    background-size: cover;
+
+
+}
+
+header{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    width: 40%;
+  margin-left: 30%;
+
+
+}
+
+header img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+header .container {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+header .container button{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.142);
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+header .container-icons {
+    margin-bottom: 50px;
+    font-size: 17pt;
+}
+header .container-icons i{
+    padding: 20px;
+   
+}
+
+.container-footer a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    body{
+      
+       background-size: none;
+
+    
+    
+    }
+
+    
+header .container {
+    
+    width: 120%;
+   
+
+}
+
+
+    header .container-icons {
+        display: flex;
+        margin-bottom: 15px;
+        font-size: 17pt;
+        margin-left: -30%;
+    }
+
+    .container-footer {
+        font-size: 10pt;
+        width: 200px;
+        
+    
+    }
+    
+
+
+
+
+}
