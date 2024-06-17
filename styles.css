@@ -63,11 +63,17 @@ header .container button{
 header .container-icons {
     margin-bottom: 50px;
     font-size: 17pt;
+    cursor: pointer;
+
 }
 header .container-icons i{
     padding: 20px;
+
    
 }
+
+
+
 
 .container-footer a{
     text-decoration: none;
